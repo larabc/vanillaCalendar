@@ -1,0 +1,23 @@
+{
+  "name": "vanillacalendar",
+  "version": "1.0.0",
+  "description": "Simple calendar with vanilla js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larabc/vanillaCalendar.git"
+  },
+  "keywords": [
+    "calendar",
+    "vanillajs"
+  ],
+  "author": "Lara Bautista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larabc/vanillaCalendar/issues"
+  },
+  "homepage": "https://github.com/larabc/vanillaCalendar#readme"
+}
