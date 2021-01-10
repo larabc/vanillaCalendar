@@ -5,10 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
             "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "/Users/lara/development/vanillaCalendar/vanillaCalendar/index.html"
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/index.js"
         }
     ]
 }
