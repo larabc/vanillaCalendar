@@ -15,7 +15,7 @@ li {
     text-align: right; 
 }
 .first-day {
-    grid-column-start: 5; /* first elememt will start at column 5 */
+grid-column-start: 4;/* first elememt will start at column 5 */
 }
 
 .day-name {
