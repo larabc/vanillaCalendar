@@ -10,15 +10,6 @@
             "request": "attach",
             "type": "pwa-chrome",
             "webRoot": "${workspaceFolder}"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/index.js"
         }
     ]
 }
